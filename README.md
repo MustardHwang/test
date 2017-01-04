@@ -3,64 +3,64 @@
   - Staged
   - Committed
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git clone
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git add
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git status
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git status -s
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 .gitignore
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git diff
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git diff --staged
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git diff --cached
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git commit
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git commit -m <Message>
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git -a commit
 ```
 
 ## What does it do?
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git rm <filename>
 ```
@@ -72,7 +72,7 @@ filesystem and will no longer be tracked.
 If you simply remove the file from the filesystem, Git will see that
 it has been deleted but not staged to be committed.
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git rm --cached <filename>
 ```
@@ -81,7 +81,8 @@ git rm --cached <filename>
 Removes a file from the staging area, but not from your
 filesystem/working tree
 
-# Command                                                             :drill:
+# Command                                                             
+```shell
 git mv <original file> <new file>
 ```
 
@@ -89,6 +90,7 @@ git mv <original file> <new file>
 Renames a file and then stages it for commit.
 
 # Command
+```shell
 git log
 ```
 
@@ -124,7 +126,7 @@ git log --grep="specific commit message"
 git log --until
 ```
 
-# Scenario                                                            :drill:
+# Scenario                                                            
 ```shell
 git commit --amend
 ```
@@ -132,7 +134,7 @@ git commit --amend
 ## Details
 When you need to correct the commit message of an already staged set
 
-# Scenario                                                            :drill:
+# Scenario                                                            
 ```shell
 git reset HEAD <filename>
 ```
@@ -149,7 +151,7 @@ git checkout -- <filename>
 When you need to discard the changes made on the file in your
 filesystem
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git branch <branch name>
 ```
@@ -157,7 +159,7 @@ git branch <branch name>
 ## What does it do?
 Creates a branch for you
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git checkout <branch name>
 ```
@@ -167,7 +169,7 @@ git checkout <branch name>
 Switch branch to <branch name>
 ```
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git checkout -b <branch name>
 ```
@@ -176,7 +178,7 @@ git checkout -b <branch name>
 Creates a branch and switches to it
 
 
-# Command                                                             :drill:
+# Command                                                             
 ```shell
 git branch -d <branch name>
 ```
